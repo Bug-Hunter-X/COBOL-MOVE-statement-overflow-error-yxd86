@@ -1,0 +1,1 @@
+This repository contains a COBOL program that demonstrates an uncommon error related to the MOVE statement.  The program attempts to move a string value into a numeric field, causing unexpected behavior.  The solution provides a corrected version with appropriate data type handling and error checks.
