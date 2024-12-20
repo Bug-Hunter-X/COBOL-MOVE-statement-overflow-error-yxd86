@@ -1,0 +1,1 @@
+01  WS-AREA-1 PIC X(10). 01  WS-AREA-2 PIC 9(5) VALUE 0. MOVE '1234567890' TO WS-AREA-1. ADD 1 TO WS-AREA-2. DISPLAY WS-AREA-1, WS-AREA-2. The issue is that if the value of WS-AREA-1 is more than 5 digits it causes an overflow error.
